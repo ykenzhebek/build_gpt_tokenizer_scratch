@@ -10,8 +10,9 @@ Byte-Pair Encoding is a type of data compression technique that is also widely u
 
 Following Andrej Karpathy's tutorial, I learned about the BPE algorithm and implemented it for some text samples. The steps included:
 
-1. **Building a Basic Tokenizer**: Implementing core functions `train`, `encode`, and `decode`. Trained the tokenizer on various texts to visualize the merged tokens.
+1. **Building a Basic Tokenizer**: Implementing core functions `train`, `encode`, and `decode`. In Exercise: the tokenizer was initially trained on text extracted from Taylor Swift's Wikipedia page.
 2. **Advancing to RegexTokenizer**: Enhancing the BasicTokenizer with a regex pattern that matches the GPT-4 tokenizer's splitting rules, ensuring no tokens go across categories like numbers, letters, and punctuation.
 3. **Matching GPT-4 Tokenizer**: Attempted to replicate the encoding and decoding functionality of the GPT-4 tokenizer using `tiktoken`.
 
+## Reference
 Tutorial Reference: [Let's build the GPT Tokenizer by Andrej Karpathy](https://www.youtube.com/watch?v=zduSFxRajkE&t=3527s&ab_channel=AndrejKarpathy)
